@@ -30,7 +30,8 @@ $ git push -u origin main
 # ここまでGithubリポジトリ作成時の初期コマンド
 
 # 7. `LinuxCommandPractice`ディレクトリに`.git`ディレクトリが表示されていることを確認してください。
-
+$ cd LinuxCommandPractice
+$ ls -a
 
 
 # 8. `LinuxCommandPractice`ディレクトリ内に`practice_dir_1`ディレクトリを作成してください。
@@ -70,7 +71,7 @@ $ ls
 $ cd ../../
 
 # 19. `practice_dir_2`ディレクトリを削除してください。**但し、相対パスを使用してください。**
-$ rm-r practice_dir_1/practice_dir_2
+$ rm -r practice_dir_1/practice_dir_2
 
 # 20. `vi`または`vim`を用いて、カレントディレクトリにある`practice_file1.txt`に`I'm good at Linux commands!`と書き込んでください。
 $ vi practice_file1.txt
